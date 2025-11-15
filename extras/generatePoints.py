@@ -13,4 +13,4 @@ for n in sizes:
             x = random.randint(0, 1100)
             y = random.randint(0, 600)
             f.write(f"{x} {y}\n")
-    print(f"✅ generated {filename} with {n} points")
+    print(f" generated {filename} with {n} points")

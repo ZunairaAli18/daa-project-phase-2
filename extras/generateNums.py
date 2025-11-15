@@ -14,4 +14,4 @@ for digits in sizes:
     filename = f"karatsubas_inputs/karatsuba{digits}.txt"
     with open(filename, "w") as f:
         f.write(f"{a}\n{b}\n")
-    print(f"✅ generated {filename} with {digits}-digit numbers")
+    print(f" generated {filename} with {digits}-digit numbers")
